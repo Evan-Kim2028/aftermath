@@ -16,7 +16,7 @@ export function initPoolEvents() {
     .onEventDepositEvent(async (event, ctx: SuiContext) => {
       ctx.eventLogger.emit("deposits", {
         pool_id: event.data_decoded.pool_id,
-        deposits: event.data_decoded.deposits,
+        deposits: JSON.stringify(event.data_decoded.deposits),
         issuer: event.data_decoded.issuer,
         lp_coins_minted: event.data_decoded.lp_coins_minted,
         referrer: event.data_decoded.referrer,
