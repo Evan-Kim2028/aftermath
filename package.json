@@ -14,7 +14,7 @@
     "@sentio/sdk": "^2.53.0"
   },
   "devDependencies": {
-    "@sentio/cli": "^2.23.2",
+    "@sentio/cli": "^2.23.3",
     "typescript": "^5.5.2"
   }
 }
