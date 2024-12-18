@@ -4,7 +4,7 @@ import {SuiContext} from "@sentio/sdk/sui"
 export function initTurboPoolEvents() {
   return pool.bind()
   .onEventSwapEvent(async (event, ctx: SuiContext) => {
-    ctx.eventLogger.emit("turbos_swap", {
+    ctx.eventLogger.emit("turbos_swaps", {
         pool: event.data_decoded.pool,  
         recipient: event.data_decoded.recipient,
         amount_a: event.data_decoded.amount_a.toString(),

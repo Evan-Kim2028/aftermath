@@ -5,7 +5,7 @@ export function initAFPoolEvents() {
   events.bind()
     .onEventCreatedPoolEvent(async (event, ctx: SuiContext) => {
       // Emit event with all values
-      ctx.eventLogger.emit("created_pool", {
+      ctx.eventLogger.emit("aftermath_created_pool", {
         name: event.data_decoded.name,
         weights: event.data_decoded.weights,
         coins: JSON.stringify(event.data_decoded.coins),
@@ -14,7 +14,7 @@ export function initAFPoolEvents() {
       })
     })
     .onEventDepositEvent(async (event, ctx: SuiContext) => {
-      ctx.eventLogger.emit("deposits", {
+      ctx.eventLogger.emit("aftermath_deposits", {
         pool_id: event.data_decoded.pool_id,
         deposits: JSON.stringify(event.data_decoded.deposits),
         issuer: event.data_decoded.issuer,
@@ -24,7 +24,7 @@ export function initAFPoolEvents() {
       })
     })
     .onEventDepositEventV2(async (event, ctx: SuiContext) => {
-      ctx.eventLogger.emit("deposits_v2", {
+      ctx.eventLogger.emit("aftermath_deposits_v2", {
         pool_id: event.data_decoded.pool_id,
         deposits: JSON.stringify(event.data_decoded.deposits),
         issuer: event.data_decoded.issuer,
@@ -35,7 +35,7 @@ export function initAFPoolEvents() {
       })
     })
     .onEventWithdrawEvent(async (event, ctx: SuiContext) => {
-      ctx.eventLogger.emit("withdraws", {
+      ctx.eventLogger.emit("aftermath_withdraws", {
         pool_id: event.data_decoded.pool_id,
         issuer: event.data_decoded.issuer,
         lp_coins_burned: event.data_decoded.lp_coins_burned,
@@ -44,7 +44,7 @@ export function initAFPoolEvents() {
       })
     })
     .onEventWithdrawEventV2(async (event, ctx: SuiContext) => {
-      ctx.eventLogger.emit("withdraws_v2", {
+        ctx.eventLogger.emit("aftermath_withdraws_v2", {
         pool_id: event.data_decoded.pool_id,
         issuer: event.data_decoded.issuer,
         withdrawn: JSON.stringify(event.data_decoded.withdrawn),
@@ -55,7 +55,7 @@ export function initAFPoolEvents() {
       })
     })
     .onEventSwapEvent(async (event, ctx: SuiContext) => {
-      ctx.eventLogger.emit("swaps", {
+      ctx.eventLogger.emit("aftermath_swaps", {
         pool_id: event.data_decoded.pool_id,
         amounts_in: JSON.stringify(event.data_decoded.amounts_in),
         amounts_out: JSON.stringify(event.data_decoded.amounts_out),
@@ -66,7 +66,7 @@ export function initAFPoolEvents() {
       })
     })
     .onEventSwapEventV2(async (event, ctx: SuiContext) => {
-      ctx.eventLogger.emit("swaps_v2", {
+      ctx.eventLogger.emit("aftermath_swaps_v2", {
         pool_id: event.data_decoded.pool_id,
         amounts_in: JSON.stringify(event.data_decoded.amounts_in),
         amounts_out: JSON.stringify(event.data_decoded.amounts_out),
@@ -78,7 +78,7 @@ export function initAFPoolEvents() {
       })
     })
     .onEventOraclePriceEvent(async (event, ctx: SuiContext) => {
-      ctx.eventLogger.emit("oracle_price", {
+      ctx.eventLogger.emit("aftermath_oracle_price", {
         pool_id: event.data_decoded.pool_id,
         oracle_price: event.data_decoded.oracle_price,
         base_type: event.data_decoded.base_type,
@@ -86,7 +86,7 @@ export function initAFPoolEvents() {
       })
     })
     .onEventSpotPriceEvent(async (event, ctx: SuiContext) => {
-      ctx.eventLogger.emit("spot_price", {
+      ctx.eventLogger.emit("aftermath_spot_price", {
         pool_id: event.data_decoded.pool_id,
         spot_price: event.data_decoded.spot_price,
         base_type: event.data_decoded.base_type,
