@@ -1,4 +1,4 @@
-project: aftermath
+project: sui_dexs
 contracts:
   # rootlets
   # - chain: sui_mainnet
