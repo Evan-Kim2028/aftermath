@@ -42,60 +42,67 @@ contracts:
   # Aftermath Finance amm_v2
   - chain: sui_mainnet
     address: "0xc4049b2d1cc0f6e017fda8260e4377cecd236bd7f56a54fee120816e72e2e0dd"
-  # # Aftermath Finance (Cetus) 1
-  # - chain: sui_mainnet
-  #   address: "0x069e0dfbeef13f16e4b3ac9f29d3f2f9f98571c6caba3dc146b955aa3d76d93b"
-  # # Aftermath Finance (Cetus) 2
-  # - chain: sui_mainnet
-  #   address: "0x5fba3716cb50198e2dbbaa07da862441aa38ef7a9d8cb1706287a85477bb3d69"
-  # # Aftermath Finance DCA
-  # - chain: sui_mainnet
-  #   address: "0x002134246a32eec18e68f1f5aadb8edd34856298ae6d32c145d28f3ca46c7fd1"
-  # # Aftermath Finance Afterburner Vault
-  # - chain: sui_mainnet
-  #   address: "0xcd41fbc59af65b7c58fd2590d5e35efbf756d50e6da2bd0413917102be6e1fdf"
-  # # Aftermath Finance Core
-  # - chain: sui_mainnet
-  #   address: "0xe5099fcd45747074d0ef5eabce07a9bd1c3b0c1862435bf2a09c3a81e0604373"
-  # # Aftermath Finance (Dao Fee)
-  # - chain: sui_mainnet
-  #   address: "0x1792207e185445c243c1cd6d37274f4715972a65ff1d195089dfedc696f21f67"
-  # # Aftermath Finance (Blue Move)
-  # - chain: sui_mainnet
-  #   address: "0x90bdb17e11d03e1c6a0b9252b89c9362a11c696989a4cff73500eadc7a9e4afe"
-  # # Aftermath Finance (Cetus)
-  # - chain: sui_mainnet
-  #   address: "0xa92fa34cca082c813af2cc28d9b151ca5b684758ed0bee9cd42f5791e1333e38"
-  # # Aftermath Finance (DeepBook)
-  # - chain: sui_mainnet
-  #   address: "0x4c7f30cfaec73f1791048b1a091550bd6a3bd14849a9430e5743f344ccdb7673"
-  # # Aftermath Finance (FlowX CLMM)
-  # - chain: sui_mainnet
-  #   address: "0xcfedf5f963c3d573fd837dffd720c2ca4a86f233f5d698cbbf7e59deb064567d"
-  # # Aftermath Finance (FlowX CPMM)
-  # - chain: sui_mainnet
-  #   address: "0x65dbcae1b5ac6ee81849a61db61d69fc275d345214629a4b9ebeb13c8206dd42"
-  # # Aftermath Finance (Kriya CLMM)
-  # - chain: sui_mainnet
-  #   address: "0xdfbf2afe5b1348bed87fe661b9d6d356ad503bb1d4dabed2218547778c434f3c"
-  # # Aftermath Finance (Kriya CPMM)
-  # - chain: sui_mainnet
-  #   address: "0x41dd7dc8ec759403ff2151600513ba3dd0a713df6ccfa5429f80cb7d52622489"
-  # # Aftermath Finance (Pump Up)
-  # - chain: sui_mainnet
-  #   address: "0x512bbeb0287bb4fc8d4eafe5aad118e99f9d59ad532bf35da5d5215ad2a8b494"
-  # # Aftermath Finance (Suiswap)  - having problems building the contract 0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc
-  # - chain: sui_mainnet
-  #   address: "0x84e21a91ea79cb469b5aa70fc1e096a24d9c41e25cf833977062ce89cc9ca34c"
+    # # Aftermath Finance (Cetus) 1
+    # - chain: sui_mainnet
+    #   address: "0x069e0dfbeef13f16e4b3ac9f29d3f2f9f98571c6caba3dc146b955aa3d76d93b"
+    # # Aftermath Finance (Cetus) 2
+    # - chain: sui_mainnet
+    #   address: "0x5fba3716cb50198e2dbbaa07da862441aa38ef7a9d8cb1706287a85477bb3d69"
+    # # Aftermath Finance DCA
+    # - chain: sui_mainnet
+    #   address: "0x002134246a32eec18e68f1f5aadb8edd34856298ae6d32c145d28f3ca46c7fd1"
+    # # Aftermath Finance Afterburner Vault
+    # - chain: sui_mainnet
+    #   address: "0xcd41fbc59af65b7c58fd2590d5e35efbf756d50e6da2bd0413917102be6e1fdf"
+    # # Aftermath Finance Core
+    # - chain: sui_mainnet
+    #   address: "0xe5099fcd45747074d0ef5eabce07a9bd1c3b0c1862435bf2a09c3a81e0604373"
+    # # Aftermath Finance (Dao Fee)
+    # - chain: sui_mainnet
+    #   address: "0x1792207e185445c243c1cd6d37274f4715972a65ff1d195089dfedc696f21f67"
+    # # Aftermath Finance (Blue Move)
+    # - chain: sui_mainnet
+    #   address: "0x90bdb17e11d03e1c6a0b9252b89c9362a11c696989a4cff73500eadc7a9e4afe"
+    # # Aftermath Finance (Cetus)
+    # - chain: sui_mainnet
+    #   address: "0xa92fa34cca082c813af2cc28d9b151ca5b684758ed0bee9cd42f5791e1333e38"
+    # # Aftermath Finance (DeepBook)
+    # - chain: sui_mainnet
+    #   address: "0x4c7f30cfaec73f1791048b1a091550bd6a3bd14849a9430e5743f344ccdb7673"
+    # # Aftermath Finance (FlowX CLMM)
+    # - chain: sui_mainnet
+    #   address: "0xcfedf5f963c3d573fd837dffd720c2ca4a86f233f5d698cbbf7e59deb064567d"
+    # # Aftermath Finance (FlowX CPMM)
+    # - chain: sui_mainnet
+    #   address: "0x65dbcae1b5ac6ee81849a61db61d69fc275d345214629a4b9ebeb13c8206dd42"
+    # # Aftermath Finance (Kriya CLMM)
+    # - chain: sui_mainnet
+    #   address: "0xdfbf2afe5b1348bed87fe661b9d6d356ad503bb1d4dabed2218547778c434f3c"
+    # # Aftermath Finance (Kriya CPMM)
+    # - chain: sui_mainnet
+    #   address: "0x41dd7dc8ec759403ff2151600513ba3dd0a713df6ccfa5429f80cb7d52622489"
+    # # Aftermath Finance (Pump Up)
+    # - chain: sui_mainnet
+    #   address: "0x512bbeb0287bb4fc8d4eafe5aad118e99f9d59ad532bf35da5d5215ad2a8b494"
+    # # Aftermath Finance (Suiswap)  - having problems building the contract 0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc
+    # - chain: sui_mainnet
+    #   address: "0x84e21a91ea79cb469b5aa70fc1e096a24d9c41e25cf833977062ce89cc9ca34c"
     # Aftermath Finance (Turbos)
-  # - chain: sui_mainnet
-  #   address: "0x2f354e93e638ca66cecba769cd0827b89c84cfe08a0c76a9dd3910b00a55a8bc"
-  #   # Aftermath Finance (Pump Up)
-  # - chain: sui_mainnet
+    # - chain: sui_mainnet
+    #   address: "0x2f354e93e638ca66cecba769cd0827b89c84cfe08a0c76a9dd3910b00a55a8bc"
+    #   # Aftermath Finance (Pump Up)
+    # - chain: sui_mainnet
     # address: "0x512bbeb0287bb4fc8d4eafe5aad118e99f9d59ad532bf35da5d5215ad2a8b494"
-  # # Aftermath Finance amm_interface_v1
-  # - chain: sui_mainnet
-  #   address: "0x0625dc2cd40aee3998a1d6620de8892964c15066e0a285d8b573910ed4c75d50"
-  # # Aftermath Finance amm_interface_v2
-  # - chain: sui_mainnet
-  #   address: "0x8d8bba50c626753589aa5abbc006c9fa07736f55f4e6fb57481682997c0b0d52"
+    # # Aftermath Finance amm_interface_v1
+    # - chain: sui_mainnet
+    #   address: "0x0625dc2cd40aee3998a1d6620de8892964c15066e0a285d8b573910ed4c75d50"
+    # # Aftermath Finance amm_interface_v2
+    # - chain: sui_mainnet
+    #   address: "0x8d8bba50c626753589aa5abbc006c9fa07736f55f4e6fb57481682997c0b0d52"
+    # Cetus
+  - chain: sui_mainnet
+    address: "0x1eabed72c53feb3805120a081dc15963c204dc8d091542592abaf7a35689b2fb"
+  - chain: sui_mainnet
+    address: "0x91bfbc386a41afcfd9b2533058d7e915a1d3829089cc268ff4333d54d6339ca1"
+  - chain: sui_mainnet
+    address: "0xb24b6789e088b876afabca733bed2299fbc9e2d6369be4d1acfa17d8145454d9"

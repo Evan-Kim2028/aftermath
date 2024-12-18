@@ -1,7 +1,7 @@
 import {events} from "./types/sui/0xc4049b2d1cc0f6e017fda8260e4377cecd236bd7f56a54fee120816e72e2e0dd.js"
 import {SuiContext} from "@sentio/sdk/sui"
 
-export function initPoolEvents() {
+export function initAFPoolEvents() {
   events.bind()
     .onEventCreatedPoolEvent(async (event, ctx: SuiContext) => {
       // Emit event with all values
